@@ -34,6 +34,7 @@ var checkThat = function(name_of_action, callback) {
 teardown(function() {
     $(".error").remove();
     $(".replay").remove();
+    $("#mocha a").contents().unwrap();
 
     if (window.image_url) {
         $("pre").last().append("<br \><img src='"+image_url+"' />");

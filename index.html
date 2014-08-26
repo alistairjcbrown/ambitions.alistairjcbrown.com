@@ -5,12 +5,29 @@
     <meta charset="utf-8">
 
     <!-- Stylesheets -->
+    <link href="//fonts.googleapis.com/css?family=Open+Sans:400normal,300normal,700normal,600normal" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="tests/lib/mocha/mocha.css">
 </head>
 
 <body>
 
+    <h1>The Milestones of my Life</h1>
+
+    <hr />
+
     <div id="mocha"></div>
+
+    <hr />
+
+    <p>
+        This <a href="http://visionmedia.github.io/mocha/">Mocha test</a> suite documents the milestones in my life.
+        Tests pass and fail based on the presence of "proof", an image saved to the proof directory.<br />
+        You can see the proof for each test by clicking on it.
+    </p>
+    <p>
+        See the <a href="https://github.com/alistairjcbrown/milestones.alistairjcbrown.com">source on Github</a>
+    </p>
 
     <!-- Testing Framework -->
     <script src="tests/lib/mocha/mocha.js"></script>
@@ -32,6 +49,8 @@
     <script>
         mocha.run();
     </script>
+
+
 
 </body>
 </html>

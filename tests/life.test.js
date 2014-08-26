@@ -1,5 +1,5 @@
 
-suite("Milestones in Life", function() {
+suite("Milestones", function() {
 
     suite("Life", function() {
 
@@ -76,7 +76,7 @@ suite("Milestones in Life", function() {
     suite("Miscellaneous", function() {
 
         test("should get a Japanese toilet", function(done) {
-            checkThat("I have a japanese toilet", done);
+            checkThat("I have a Japanese toilet", done);
         });
 
         test("should be able to communicate in basic Japanese", function(done) {
