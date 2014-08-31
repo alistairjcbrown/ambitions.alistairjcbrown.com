@@ -155,8 +155,8 @@ suite("Milestones", function() {
             checkThat("I have been to Fiji", done);
         });
 
-        test("should go to Maldives", function(done) {
-            checkThat("I have been to Maldives", done);
+        test("should go to French Polynesia", function(done) {
+            checkThat("I have been to French Polynesia", done);
         });
 
         suite("Specific Cities", function() {
